@@ -35,7 +35,7 @@ Build configurations:
 | --- | --- |
 | Debug | development |
 | Release | the disk image (Developer ID, not sandboxed) — `Scripts/release.sh` |
-| AppStore | the Mac App Store build (App Sandbox, `APPSTORE` compilation flag) |
+| AppStore | the Mac App Store build (App Sandbox, `APPSTORE` compilation flag) — `Scripts/appstore.sh` |
 
 The 7-Zip engine is the prebuilt universal `7-Zip/7-Zip/Resources/7zz`. To rebuild it from
 the unmodified source in `Vendor/`, run `Scripts/build_7zz.sh`.

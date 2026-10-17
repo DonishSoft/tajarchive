@@ -72,6 +72,7 @@ Requirements: macOS 12 or later, Xcode 16 or later.
 ```bash
 ./deploy.sh            # Release build, installed as /Applications/TajArchive.app
 ./Scripts/release.sh   # signed, notarized disk image in build/release/ (and on the Desktop)
+./Scripts/appstore.sh  # sandboxed Mac App Store build, uploaded to App Store Connect
 ```
 
 `deploy.sh` leaves exactly one registered copy of the app, so macOS never picks the Finder
@@ -84,6 +85,10 @@ offers to create it (you paste an app-specific password from
 [appleid.apple.com](https://appleid.apple.com) → Sign-In and Security → App-Specific
 Passwords). Without it the script still builds a test image named `…-UNNOTARIZED.dmg`,
 which other Macs refuse to open.
+
+`appstore.sh` archives the sandboxed `AppStore` configuration, exports it signed for the
+Mac App Store and uploads it with the Apple ID signed in to Xcode (`--export` only writes
+the `.pkg`). Raise the build number in the Xcode project before every new upload.
 
 The bundled engine is prebuilt; to rebuild it from the vendored source:
 
