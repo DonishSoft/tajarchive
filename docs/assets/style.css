@@ -56,10 +56,6 @@ header.top nav a:hover, header.top nav a[aria-current] { color: var(--text); }
 }
 .button.secondary { background: var(--surface); color: var(--text); border: 1px solid var(--line); }
 .note { color: var(--muted); font-size: 14px; margin-top: 12px; }
-section[id] { scroll-margin-top: 16px; }
-.card.donate { text-align: center; padding: 28px clamp(18px, 4vw, 44px); }
-.card.donate > p:first-child { max-width: 660px; margin: 0 auto 20px; font-size: 16.5px; }
-.card.donate .note { margin: 16px auto 0; max-width: 560px; }
 
 .shots { display: grid; gap: 18px; margin: 24px 0 8px; }
 .shots img { width: 100%; height: auto; border-radius: 14px; box-shadow: 0 10px 30px rgba(0,0,0,.14); display: block; }

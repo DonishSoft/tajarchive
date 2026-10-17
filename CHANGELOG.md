@@ -1,10 +1,5 @@
 # Changelog
 
-## Unreleased
-
-- Help → Support TajArchive… opens the donation page (disk-image version only; the Mac
-  App Store version has no donation links).
-
 ## 1.0.0 — 2026-10
 
 First public release of TajArchive (previously developed as a 7-Zip port).

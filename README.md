@@ -2,7 +2,6 @@
 
 [![Build](https://github.com/DonishSoft/tajarchive/actions/workflows/build.yml/badge.svg)](https://github.com/DonishSoft/tajarchive/actions/workflows/build.yml)
 [![License: LGPL v2.1](https://img.shields.io/badge/license-LGPL%202.1-blue.svg)](LICENSE)
-[![Patreon](https://img.shields.io/badge/Patreon-support-F96854?logo=patreon&logoColor=white)](https://www.patreon.com/c/TajArchive)
 
 **Website:** <https://donishsoft.github.io/tajarchive/> ·
 **Download:** [latest release](https://github.com/DonishSoft/tajarchive/releases/latest) ·
@@ -175,14 +174,10 @@ in [SECURITY.md](SECURITY.md).
 
 ## Supporting the project
 
-TajArchive is free and stays free. If it is useful to you, you can support its development
-on **[Patreon](https://www.patreon.com/c/TajArchive)** (or with the **Sponsor** button of this repository). Donations pay
-for new versions, translations and the yearly Apple developer membership needed to sign
-and publish the app.
-
-Starring the project, reporting bugs and helping with code and translations
-([CONTRIBUTING.md](CONTRIBUTING.md)) help just as much. The Mac App Store version contains
-no donation links, as App Store rules require.
+TajArchive is free and stays free. If you want to support its development, use the
+**Sponsor** button of this repository once it is set up, star the project, or help with
+code and translations. (The Mac App Store version contains no donation links, as App Store
+rules require.)
 
 ## Credits
 
