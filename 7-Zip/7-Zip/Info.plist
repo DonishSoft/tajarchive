@@ -244,7 +244,7 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>© 2026 DonishSoft · 7-Zip engine © 1999–2025 Igor Pavlov · GNU LGPL</string>
 	<key>TAJDonateURL</key>
-	<string></string>
+	<string>https://donishsoft.github.io/tajarchive/#donate</string>
 	<key>TAJSupportEmail</key>
 	<string>info@donishsoft.com</string>
 	<key>TAJWebsiteURL</key>
