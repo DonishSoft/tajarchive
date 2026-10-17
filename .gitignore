@@ -1,0 +1,26 @@
+# Build output
+build/
+DerivedData/
+*.xcarchive
+*.dmg
+Vendor/7zip-25.01-src/CPP/7zip/Bundles/Alone2/b/
+
+# Xcode per-user state
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+
+# macOS
+.DS_Store
+.AppleDouble
+._*
+
+# Local tools
+.claude/
+.venv*/
+__pycache__/
+
+# Windows installers kept locally only to extract the upstream language files
+Vendor/7z2501.exe
+Vendor/7z2501-x64.msi
+Vendor/7z2501-extra.7z

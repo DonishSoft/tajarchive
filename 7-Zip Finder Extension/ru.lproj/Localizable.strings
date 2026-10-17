@@ -1,0 +1,12 @@
+/* TajArchive Finder menu — Русский */
+"Add to Archive…" = "Добавить в архив…";
+"Add to “%@”" = "Добавить в «%@»";
+"Add to “%@” (Adaptive)" = "Добавить в «%@» (адаптивно)";
+"Open Archive" = "Открыть архив";
+"Extract Files…" = "Извлечь файлы…";
+"Extract Here" = "Извлечь сюда";
+"Extract to “%@”" = "Извлечь в «%@»";
+"Test Archive" = "Проверить архив";
+"TajArchive could not be opened" = "Не удалось открыть TajArchive";
+"The selected items could not be passed to the app." = "Не удалось передать выбранные объекты приложению.";
+"The app was not found next to its Finder extension. Reinstall TajArchive." = "Приложение не найдено рядом с расширением Finder. Переустановите TajArchive.";

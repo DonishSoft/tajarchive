@@ -1,0 +1,7 @@
+/* TajArchive Quick Look — Русский */
+"Files: %d   Folders: %d   Size: %@" = "Файлов: %d   Папок: %d   Размер: %@";
+"Name" = "Имя";
+"Size" = "Размер";
+"Modified" = "Изменён";
+"…and %d more" = "…и ещё %d";
+"Open the archive in TajArchive to see its contents." = "Откройте архив в TajArchive, чтобы увидеть его содержимое.";

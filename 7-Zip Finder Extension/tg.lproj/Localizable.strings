@@ -1,0 +1,12 @@
+/* TajArchive Finder menu — Тоҷикӣ */
+"Add to Archive…" = "Илова ба архив…";
+"Add to “%@”" = "Илова ба «%@»";
+"Add to “%@” (Adaptive)" = "Илова ба «%@» (мутобиқшаванда)";
+"Open Archive" = "Кушодани архив";
+"Extract Files…" = "Баровардани файлҳо…";
+"Extract Here" = "Дар ҳамин ҷо баровардан";
+"Extract to “%@”" = "Баровардан ба «%@»";
+"Test Archive" = "Санҷиши архив";
+"TajArchive could not be opened" = "TajArchive кушода нашуд";
+"The selected items could not be passed to the app." = "Объектҳои интихобшуда ба барнома фиристода нашуданд.";
+"The app was not found next to its Finder extension. Reinstall TajArchive." = "Барнома дар паҳлуи васеъкунии Finder ёфт нашуд. TajArchive-ро аз нав насб кунед.";

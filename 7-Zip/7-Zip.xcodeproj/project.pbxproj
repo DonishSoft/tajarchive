@@ -1,0 +1,1530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		237F60322F5CFC1B00675497 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237F60312F5CFC1B00675497 /* Quartz.framework */; };
+		237F603E2F5CFC1B00675497 /* 7-Zip Quick Look.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 237F60302F5CFC1B00675497 /* 7-Zip Quick Look.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		237F60712F5D21BE00675497 /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237F60702F5D21BE00675497 /* L10n.swift */; };
+		237F607B2F5D21E400675497 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 237F60732F5D21E400675497 /* Localizable.strings */; };
+		237F607C2F5D21E400675497 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 237F60792F5D21E400675497 /* Localizable.strings */; };
+		237F607D2F5D21E400675497 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 237F60762F5D21E400675497 /* Localizable.strings */; };
+		6DC0AC965A1416B7A0200AB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D2CA5E9CEFDB1F90BDA9F28 /* Assets.xcassets */; };
+		A1000001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001 /* AppDelegate.swift */; };
+		A1000002 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000002 /* MainWindowController.swift */; };
+		A1000003 /* FileListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000003 /* FileListViewController.swift */; };
+		A1000004 /* CompressSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000004 /* CompressSheetController.swift */; };
+		A1000006 /* SevenZipWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000006 /* SevenZipWrapper.swift */; };
+		A1000007 /* ArchiveEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000007 /* ArchiveEntry.swift */; };
+		A1000008 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000009 /* main.swift */; };
+		A1000010 /* TajCompressor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000010 /* TajCompressor.swift */; };
+		A1000017 /* CompressionSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000017 /* CompressionSettings.swift */; };
+		FA000011 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000001 /* AppSettings.swift */; };
+		FA000012 /* ExtendedFormats.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000002 /* ExtendedFormats.swift */; };
+		FA000013 /* ArchiveCommandsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA000003 /* ArchiveCommandsController.swift */; };
+		A100001B /* EditedFileWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200001B /* EditedFileWatcher.swift */; };
+		A1000018 /* BrowserPaneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000018 /* BrowserPaneController.swift */; };
+		A1000019 /* BenchmarkWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000019 /* BenchmarkWindowController.swift */; };
+		A100001A /* SplitCombineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200001A /* SplitCombineController.swift */; };
+		A1000011 /* AboutWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000011 /* AboutWindowController.swift */; };
+		A1000012 /* PreferencesWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000012 /* PreferencesWindowController.swift */; };
+		A1000013 /* MainMenuBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000013 /* MainMenuBuilder.swift */; };
+		A1000014 /* ExtractDialogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000014 /* ExtractDialogController.swift */; };
+		A1000015 /* HashResultsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000015 /* HashResultsWindowController.swift */; };
+		A1000016 /* InfoPanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000016 /* InfoPanelController.swift */; };
+		A1000020 /* 7zz in Resources */ = {isa = PBXBuildFile; fileRef = A2000020 /* 7zz */; };
+		B1000001 /* FinderSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000001 /* FinderSync.swift */; };
+		B1000002 /* FinderSync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2000010 /* FinderSync.framework */; };
+		B1000003 /* FinderExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B3000002 /* FinderExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F9000031 /* ThumbnailProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9000030 /* ThumbnailProvider.swift */; };
+		F9000040 /* TajArchive Thumbnails.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F9000002 /* TajArchive Thumbnails.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E230805D4EC1C7C5F34078D1 /* AppInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E130805D4EC1C7C5F34078D1 /* AppInstaller.swift */; };
+		E27A72AB22E29CC01D200C3B /* SetupAssistantController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17A72AB22E29CC01D200C3B /* SetupAssistantController.swift */; };
+		F5000014 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5000010 /* Localizable.strings */; };
+		E202495EB5CAC165375D19CC /* FolderAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102495EB5CAC165375D19CC /* FolderAccess.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		237F603C2F5CFC1B00675497 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 237F602F2F5CFC1B00675497;
+			remoteInfo = "7-Zip Quick Look";
+		};
+		B4000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1000002;
+			remoteInfo = "7-Zip Finder Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B5000001 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B1000003 /* FinderExtension.appex in Embed Foundation Extensions */,
+				F9000040 /* TajArchive Thumbnails.appex in Embed Foundation Extensions */,
+				237F603E2F5CFC1B00675497 /* 7-Zip Quick Look.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		237F60302F5CFC1B00675497 /* 7-Zip Quick Look.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "7-Zip Quick Look.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		237F60312F5CFC1B00675497 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		237F60702F5D21BE00675497 /* L10n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L10n.swift; sourceTree = "<group>"; };
+		237F60722F5D21E400675497 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		237F60752F5D21E400675497 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = Localizable.strings; sourceTree = "<group>"; };
+		237F60782F5D21E400675497 /* tg */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tg; path = Localizable.strings; sourceTree = "<group>"; };
+		9D2CA5E9CEFDB1F90BDA9F28 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2000001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2000002 /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		A2000003 /* FileListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileListViewController.swift; sourceTree = "<group>"; };
+		A2000004 /* CompressSheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompressSheetController.swift; sourceTree = "<group>"; };
+		A2000006 /* SevenZipWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenZipWrapper.swift; sourceTree = "<group>"; };
+		A2000007 /* ArchiveEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveEntry.swift; sourceTree = "<group>"; };
+		A2000008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2000009 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A2000010 /* TajCompressor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TajCompressor.swift; sourceTree = "<group>"; };
+		A2000017 /* CompressionSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompressionSettings.swift; sourceTree = "<group>"; };
+		FA000001 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		FA000002 /* ExtendedFormats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendedFormats.swift; sourceTree = "<group>"; };
+		FA000003 /* ArchiveCommandsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveCommandsController.swift; sourceTree = "<group>"; };
+		A200001B /* EditedFileWatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditedFileWatcher.swift; sourceTree = "<group>"; };
+		A2000018 /* BrowserPaneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserPaneController.swift; sourceTree = "<group>"; };
+		A2000019 /* BenchmarkWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenchmarkWindowController.swift; sourceTree = "<group>"; };
+		A200001A /* SplitCombineController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitCombineController.swift; sourceTree = "<group>"; };
+		A2000011 /* AboutWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutWindowController.swift; sourceTree = "<group>"; };
+		A2000012 /* PreferencesWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesWindowController.swift; sourceTree = "<group>"; };
+		A2000013 /* MainMenuBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuBuilder.swift; sourceTree = "<group>"; };
+		A2000014 /* ExtractDialogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractDialogController.swift; sourceTree = "<group>"; };
+		A2000015 /* HashResultsWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashResultsWindowController.swift; sourceTree = "<group>"; };
+		A2000016 /* InfoPanelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelController.swift; sourceTree = "<group>"; };
+		A2000020 /* 7zz */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = 7zz; sourceTree = "<group>"; };
+		B2000001 /* FinderSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderSync.swift; sourceTree = "<group>"; };
+		B2000002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2000003 /* 7-Zip_Finder_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "7-Zip_Finder_Extension.entitlements"; sourceTree = "<group>"; };
+		B2000010 /* FinderSync.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FinderSync.framework; path = System/Library/Frameworks/FinderSync.framework; sourceTree = SDKROOT; };
+		B3000001 /* 7-Zip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "7-Zip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3000002 /* FinderExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FinderExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9000002 /* TajArchive Thumbnails.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TajArchive Thumbnails.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9000030 /* ThumbnailProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailProvider.swift; sourceTree = "<group>"; };
+		F9000032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9000033 /* TajArchive_Thumbnails.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TajArchive_Thumbnails.entitlements; sourceTree = "<group>"; };
+		FB000000 /* af */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = af; path = af.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000001 /* an */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = an; path = an.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000002 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000003 /* ast */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ast; path = ast.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000004 /* az */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = az; path = az.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000005 /* ba */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ba; path = ba.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000006 /* be */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = be; path = be.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000007 /* bg */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bg; path = bg.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000008 /* bn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bn; path = bn.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000009 /* br */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = br; path = br.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB00000A /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB00000B /* ckb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ckb; path = ckb.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB00000C /* co */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = co; path = co.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB00000D /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB00000E /* cy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cy; path = cy.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB00000F /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000010 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000011 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000012 /* eo */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = eo; path = eo.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000013 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000014 /* et */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = et; path = et.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000015 /* eu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = eu; path = eu.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000016 /* ext */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ext; path = ext.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000017 /* fa */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fa; path = fa.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000018 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000019 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB00001A /* fur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fur; path = fur.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB00001B /* fy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fy; path = fy.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB00001C /* ga */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ga; path = ga.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB00001D /* gl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = gl; path = gl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB00001E /* gu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = gu; path = gu.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB00001F /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000020 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000021 /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = hr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000022 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000023 /* hy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hy; path = hy.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000024 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000025 /* io */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = io; path = io.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000026 /* is */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = is; path = is.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000027 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000028 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000029 /* ka */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ka; path = ka.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB00002A /* kaa */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = kaa; path = kaa.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB00002B /* kab */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = kab; path = kab.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB00002C /* kk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = kk; path = kk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB00002D /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB00002E /* ku */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ku; path = ku.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB00002F /* ky */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ky; path = ky.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000030 /* lij */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = lij; path = lij.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000031 /* lt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = lt; path = lt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000032 /* lv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = lv; path = lv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000033 /* mk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = mk; path = mk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000034 /* mn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = mn; path = mn.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000035 /* mn-Mong */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = mn-Mong; path = mn-Mong.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000036 /* mr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = mr; path = mr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000037 /* ms */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ms; path = ms.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000038 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000039 /* ne */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ne; path = ne.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB00003A /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB00003B /* nn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nn; path = nn.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB00003C /* pa */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pa; path = pa.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB00003D /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB00003E /* ps */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ps; path = ps.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB00003F /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt-BR; path = pt-BR.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000040 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt-PT; path = pt-PT.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000041 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000042 /* sa */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sa; path = sa.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000043 /* si */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = si; path = si.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000044 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000045 /* sl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sl; path = sl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000046 /* sq */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sq; path = sq.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000047 /* sr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sr; path = sr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000048 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000049 /* sw */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sw; path = sw.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB00004A /* ta */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ta; path = ta.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB00004B /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB00004C /* tk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tk; path = tk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB00004D /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB00004E /* tt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tt; path = tt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB00004F /* ug */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ug; path = ug.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000050 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000051 /* uz */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uz; path = uz.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000052 /* uz-Cyrl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uz-Cyrl; path = uz-Cyrl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000053 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000054 /* yo */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = yo; path = yo.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000055 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh-Hans; path = zh-Hans.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB000056 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh-Hant; path = zh-Hant.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E130805D4EC1C7C5F34078D1 /* AppInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInstaller.swift; sourceTree = "<group>"; };
+		E17A72AB22E29CC01D200C3B /* SetupAssistantController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupAssistantController.swift; sourceTree = "<group>"; };
+		F5000011 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5000012 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5000013 /* tg */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tg; path = tg.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E102495EB5CAC165375D19CC /* FolderAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderAccess.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		237F60412F5CFC1B00675497 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 237F602F2F5CFC1B00675497 /* 7-Zip Quick Look */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		237F60332F5CFC1B00675497 /* 7-Zip Quick Look */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (237F60412F5CFC1B00675497 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "7-Zip Quick Look"; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		237F602D2F5CFC1B00675497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				237F60322F5CFC1B00675497 /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1000002 /* FinderSync.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9000011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		237F60742F5D21E400675497 /* Localizations */ = {
+			isa = PBXGroup;
+			children = (
+				237F60732F5D21E400675497 /* Localizable.strings */,
+			);
+			name = Localizations;
+			path = .;
+			sourceTree = "<group>";
+		};
+		237F60772F5D21E400675497 /* ru.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				237F60762F5D21E400675497 /* Localizable.strings */,
+			);
+			path = ru.lproj;
+			sourceTree = "<group>";
+		};
+		237F607A2F5D21E400675497 /* tg.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				237F60792F5D21E400675497 /* Localizable.strings */,
+			);
+			path = tg.lproj;
+			sourceTree = "<group>";
+		};
+		D1000001 = {
+			isa = PBXGroup;
+			children = (
+				D1000002 /* 7-Zip */,
+				D1000010 /* 7-Zip Finder Extension */,
+				237F60332F5CFC1B00675497 /* 7-Zip Quick Look */,
+				F9000003 /* TajArchive Thumbnails */,
+				D1000030 /* Frameworks */,
+				D1000020 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1000002 /* 7-Zip */ = {
+			isa = PBXGroup;
+			children = (
+				A2000009 /* main.swift */,
+				D1000003 /* App */,
+				D1000004 /* Views */,
+				D1000005 /* Core */,
+				D1000006 /* Models */,
+				D1000007 /* Resources */,
+				A2000008 /* Info.plist */,
+				9D2CA5E9CEFDB1F90BDA9F28 /* Assets.xcassets */,
+			);
+			path = "7-Zip";
+			sourceTree = "<group>";
+		};
+		D1000003 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A2000001 /* AppDelegate.swift */,
+				A2000013 /* MainMenuBuilder.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D1000004 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E17A72AB22E29CC01D200C3B /* SetupAssistantController.swift */,
+				A2000002 /* MainWindowController.swift */,
+				A2000003 /* FileListViewController.swift */,
+				FA000003 /* ArchiveCommandsController.swift */,
+				A2000018 /* BrowserPaneController.swift */,
+				A2000019 /* BenchmarkWindowController.swift */,
+				A200001A /* SplitCombineController.swift */,
+				A2000004 /* CompressSheetController.swift */,
+				A2000014 /* ExtractDialogController.swift */,
+				A2000015 /* HashResultsWindowController.swift */,
+				A2000016 /* InfoPanelController.swift */,
+				A2000011 /* AboutWindowController.swift */,
+				A2000012 /* PreferencesWindowController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D1000005 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E102495EB5CAC165375D19CC /* FolderAccess.swift */,
+				E130805D4EC1C7C5F34078D1 /* AppInstaller.swift */,
+				237F60702F5D21BE00675497 /* L10n.swift */,
+				A2000006 /* SevenZipWrapper.swift */,
+				A2000010 /* TajCompressor.swift */,
+				A2000017 /* CompressionSettings.swift */,
+				FA000001 /* AppSettings.swift */,
+				FA000002 /* ExtendedFormats.swift */,
+				A200001B /* EditedFileWatcher.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D1000006 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A2000007 /* ArchiveEntry.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D1000007 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				237F60742F5D21E400675497 /* en.lproj */,
+				237F60772F5D21E400675497 /* ru.lproj */,
+				237F607A2F5D21E400675497 /* tg.lproj */,
+				A2000020 /* 7zz */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D1000010 /* 7-Zip Finder Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B2000001 /* FinderSync.swift */,
+				B2000002 /* Info.plist */,
+				B2000003 /* 7-Zip_Finder_Extension.entitlements */,
+				F5000010 /* Localizable.strings */,
+			);
+			name = "7-Zip Finder Extension";
+			path = "../7-Zip Finder Extension";
+			sourceTree = "<group>";
+		};
+		D1000020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3000001 /* 7-Zip.app */,
+				B3000002 /* FinderExtension.appex */,
+				F9000002 /* TajArchive Thumbnails.appex */,
+				237F60302F5CFC1B00675497 /* 7-Zip Quick Look.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1000030 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2000010 /* FinderSync.framework */,
+				237F60312F5CFC1B00675497 /* Quartz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9000003 /* TajArchive Thumbnails */ = {
+			isa = PBXGroup;
+			children = (
+				F9000030 /* ThumbnailProvider.swift */,
+				F9000032 /* Info.plist */,
+				F9000033 /* TajArchive_Thumbnails.entitlements */,
+			);
+			name = "TajArchive Thumbnails";
+			path = "../TajArchive Thumbnails";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		237F602F2F5CFC1B00675497 /* 7-Zip Quick Look */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 237F60422F5CFC1B00675497 /* Build configuration list for PBXNativeTarget "7-Zip Quick Look" */;
+			buildPhases = (
+				237F602C2F5CFC1B00675497 /* Sources */,
+				237F602D2F5CFC1B00675497 /* Frameworks */,
+				237F602E2F5CFC1B00675497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				237F60332F5CFC1B00675497 /* 7-Zip Quick Look */,
+			);
+			name = "7-Zip Quick Look";
+			packageProductDependencies = (
+			);
+			productName = "7-Zip Quick Look";
+			productReference = 237F60302F5CFC1B00675497 /* 7-Zip Quick Look.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		E1000001 /* 7-Zip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1000001 /* Build configuration list for PBXNativeTarget "7-Zip" */;
+			buildPhases = (
+				E2000001 /* Sources */,
+				C1000001 /* Frameworks */,
+				E3000001 /* Resources */,
+				A9000002 /* Sign 7zz helper */,
+				B5000001 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4000001 /* PBXTargetDependency */,
+				237F603D2F5CFC1B00675497 /* PBXTargetDependency */,
+			);
+			name = "7-Zip";
+			productName = "7-Zip";
+			productReference = B3000001 /* 7-Zip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1000002 /* 7-Zip Finder Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1000002 /* Build configuration list for PBXNativeTarget "7-Zip Finder Extension" */;
+			buildPhases = (
+				E2000002 /* Sources */,
+				C1000002 /* Frameworks */,
+				E3000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "7-Zip Finder Extension";
+			productName = "7-Zip Finder Extension";
+			productReference = B3000002 /* FinderExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		F9000001 /* TajArchive Thumbnails */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9000020 /* Build configuration list for PBXNativeTarget "TajArchive Thumbnails" */;
+			buildPhases = (
+				F9000010 /* Sources */,
+				F9000011 /* Frameworks */,
+				F9000012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TajArchive Thumbnails";
+			productName = "TajArchive Thumbnails";
+			productReference = F9000002 /* TajArchive Thumbnails.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					237F602F2F5CFC1B00675497 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					E1000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					E1000002 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = F1000003 /* Build configuration list for PBXProject "7-Zip" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+				tg,
+				af,
+				an,
+				ar,
+				ast,
+				az,
+				ba,
+				be,
+				bg,
+				bn,
+				br,
+				ca,
+				ckb,
+				co,
+				cs,
+				cy,
+				da,
+				de,
+				el,
+				eo,
+				es,
+				et,
+				eu,
+				ext,
+				fa,
+				fi,
+				fr,
+				fur,
+				fy,
+				ga,
+				gl,
+				gu,
+				he,
+				hi,
+				hr,
+				hu,
+				hy,
+				id,
+				io,
+				is,
+				it,
+				ja,
+				ka,
+				kaa,
+				kab,
+				kk,
+				ko,
+				ku,
+				ky,
+				lij,
+				lt,
+				lv,
+				mk,
+				mn,
+				mn-Mong,
+				mr,
+				ms,
+				nb,
+				ne,
+				nl,
+				nn,
+				pa,
+				pl,
+				ps,
+				pt-BR,
+				pt-PT,
+				ro,
+				sa,
+				si,
+				sk,
+				sl,
+				sq,
+				sr,
+				sv,
+				sw,
+				ta,
+				th,
+				tk,
+				tr,
+				tt,
+				ug,
+				uk,
+				uz,
+				uz-Cyrl,
+				vi,
+				yo,
+				zh-Hans,
+				zh-Hant,
+			);
+			mainGroup = D1000001;
+			productRefGroup = D1000020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9000001 /* TajArchive Thumbnails */,
+				E1000001 /* 7-Zip */,
+				E1000002 /* 7-Zip Finder Extension */,
+				237F602F2F5CFC1B00675497 /* 7-Zip Quick Look */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		237F602E2F5CFC1B00675497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				237F607B2F5D21E400675497 /* Localizable.strings in Resources */,
+				237F607C2F5D21E400675497 /* Localizable.strings in Resources */,
+				237F607D2F5D21E400675497 /* Localizable.strings in Resources */,
+				A1000020 /* 7zz in Resources */,
+				6DC0AC965A1416B7A0200AB2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5000014 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9000012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A9000002 /* Sign 7zz helper */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/7zz",
+			);
+			name = "Sign 7zz helper";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ -n \"${EXPANDED_CODE_SIGN_IDENTITY:-}\" ] && [ \"${CODE_SIGNING_ALLOWED}\" = \"YES\" ]; then\n  ENGINE=\"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/7zz\"\n  if [ \"${CONFIGURATION}\" = \"AppStore\" ]; then\n    # App Store build: the engine runs inside the app's sandbox\n    codesign --force --options runtime --timestamp --entitlements \"${SRCROOT}/7-Zip/7zz-AppStore.entitlements\" --sign \"${EXPANDED_CODE_SIGN_IDENTITY}\" \"$ENGINE\"\n  else\n    codesign --force --options runtime --timestamp --sign \"${EXPANDED_CODE_SIGN_IDENTITY}\" \"$ENGINE\"\n  fi\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		237F602C2F5CFC1B00675497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000001 /* AppDelegate.swift in Sources */,
+				A1000002 /* MainWindowController.swift in Sources */,
+				A1000003 /* FileListViewController.swift in Sources */,
+				A1000004 /* CompressSheetController.swift in Sources */,
+				A1000006 /* SevenZipWrapper.swift in Sources */,
+				A1000010 /* TajCompressor.swift in Sources */,
+				A1000017 /* CompressionSettings.swift in Sources */,
+				FA000011 /* AppSettings.swift in Sources */,
+				FA000012 /* ExtendedFormats.swift in Sources */,
+				FA000013 /* ArchiveCommandsController.swift in Sources */,
+				A100001B /* EditedFileWatcher.swift in Sources */,
+				A1000018 /* BrowserPaneController.swift in Sources */,
+				A1000019 /* BenchmarkWindowController.swift in Sources */,
+				A100001A /* SplitCombineController.swift in Sources */,
+				A1000007 /* ArchiveEntry.swift in Sources */,
+				237F60712F5D21BE00675497 /* L10n.swift in Sources */,
+				A1000008 /* main.swift in Sources */,
+				A1000011 /* AboutWindowController.swift in Sources */,
+				A1000012 /* PreferencesWindowController.swift in Sources */,
+				A1000013 /* MainMenuBuilder.swift in Sources */,
+				A1000014 /* ExtractDialogController.swift in Sources */,
+				A1000015 /* HashResultsWindowController.swift in Sources */,
+				E230805D4EC1C7C5F34078D1 /* AppInstaller.swift in Sources */,
+				E27A72AB22E29CC01D200C3B /* SetupAssistantController.swift in Sources */,
+				E202495EB5CAC165375D19CC /* FolderAccess.swift in Sources */,
+				A1000016 /* InfoPanelController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1000001 /* FinderSync.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9000010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9000031 /* ThumbnailProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		237F603D2F5CFC1B00675497 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 237F602F2F5CFC1B00675497 /* 7-Zip Quick Look */;
+			targetProxy = 237F603C2F5CFC1B00675497 /* PBXContainerItemProxy */;
+		};
+		E4000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1000002 /* 7-Zip Finder Extension */;
+			targetProxy = B4000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		237F60732F5D21E400675497 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				237F60722F5D21E400675497 /* en */,
+				FB000000 /* af */,
+				FB000001 /* an */,
+				FB000002 /* ar */,
+				FB000003 /* ast */,
+				FB000004 /* az */,
+				FB000005 /* ba */,
+				FB000006 /* be */,
+				FB000007 /* bg */,
+				FB000008 /* bn */,
+				FB000009 /* br */,
+				FB00000A /* ca */,
+				FB00000B /* ckb */,
+				FB00000C /* co */,
+				FB00000D /* cs */,
+				FB00000E /* cy */,
+				FB00000F /* da */,
+				FB000010 /* de */,
+				FB000011 /* el */,
+				FB000012 /* eo */,
+				FB000013 /* es */,
+				FB000014 /* et */,
+				FB000015 /* eu */,
+				FB000016 /* ext */,
+				FB000017 /* fa */,
+				FB000018 /* fi */,
+				FB000019 /* fr */,
+				FB00001A /* fur */,
+				FB00001B /* fy */,
+				FB00001C /* ga */,
+				FB00001D /* gl */,
+				FB00001E /* gu */,
+				FB00001F /* he */,
+				FB000020 /* hi */,
+				FB000021 /* hr */,
+				FB000022 /* hu */,
+				FB000023 /* hy */,
+				FB000024 /* id */,
+				FB000025 /* io */,
+				FB000026 /* is */,
+				FB000027 /* it */,
+				FB000028 /* ja */,
+				FB000029 /* ka */,
+				FB00002A /* kaa */,
+				FB00002B /* kab */,
+				FB00002C /* kk */,
+				FB00002D /* ko */,
+				FB00002E /* ku */,
+				FB00002F /* ky */,
+				FB000030 /* lij */,
+				FB000031 /* lt */,
+				FB000032 /* lv */,
+				FB000033 /* mk */,
+				FB000034 /* mn */,
+				FB000035 /* mn-Mong */,
+				FB000036 /* mr */,
+				FB000037 /* ms */,
+				FB000038 /* nb */,
+				FB000039 /* ne */,
+				FB00003A /* nl */,
+				FB00003B /* nn */,
+				FB00003C /* pa */,
+				FB00003D /* pl */,
+				FB00003E /* ps */,
+				FB00003F /* pt-BR */,
+				FB000040 /* pt-PT */,
+				FB000041 /* ro */,
+				FB000042 /* sa */,
+				FB000043 /* si */,
+				FB000044 /* sk */,
+				FB000045 /* sl */,
+				FB000046 /* sq */,
+				FB000047 /* sr */,
+				FB000048 /* sv */,
+				FB000049 /* sw */,
+				FB00004A /* ta */,
+				FB00004B /* th */,
+				FB00004C /* tk */,
+				FB00004D /* tr */,
+				FB00004E /* tt */,
+				FB00004F /* ug */,
+				FB000050 /* uk */,
+				FB000051 /* uz */,
+				FB000052 /* uz-Cyrl */,
+				FB000053 /* vi */,
+				FB000054 /* yo */,
+				FB000055 /* zh-Hans */,
+				FB000056 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		237F60762F5D21E400675497 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				237F60752F5D21E400675497 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		237F60792F5D21E400675497 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				237F60782F5D21E400675497 /* tg */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F5000010 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5000011 /* en */,
+				F5000012 /* ru */,
+				F5000013 /* tg */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		237F603F2F5CFC1B00675497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B65SR885N5;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "7-Zip Quick Look/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "7-Zip Quick Look";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.donishsoft.tajarchive.quicklook;
+				PRODUCT_NAME = "TajArchive Quick Look";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		237F60402F5CFC1B00675497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B65SR885N5;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "7-Zip Quick Look/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "7-Zip Quick Look";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.donishsoft.tajarchive.quicklook;
+				PRODUCT_NAME = "TajArchive Quick Look";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		G1000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		G1000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		G2000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B65SR885N5;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "7-Zip/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 1999-2025 Igor Pavlov. GNU LGPL License.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.donishsoft.tajarchive;
+				PRODUCT_NAME = TajArchive;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				ENABLE_PREVIEWS = NO;
+				ENABLE_XOJIT_PREVIEWS = NO;
+			};
+			name = Debug;
+		};
+		G2000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B65SR885N5;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "7-Zip/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 1999-2025 Igor Pavlov. GNU LGPL License.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.donishsoft.tajarchive;
+				PRODUCT_NAME = TajArchive;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				ENABLE_PREVIEWS = NO;
+				ENABLE_XOJIT_PREVIEWS = NO;
+			};
+			name = Release;
+		};
+		G3000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "../7-Zip Finder Extension/7-Zip_Finder_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B65SR885N5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "../7-Zip Finder Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "7-Zip Finder Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 1999-2025 Igor Pavlov. GNU LGPL License.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.donishsoft.tajarchive.FinderExtension;
+				PRODUCT_NAME = FinderExtension;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				ENABLE_PREVIEWS = NO;
+				ENABLE_XOJIT_PREVIEWS = NO;
+			};
+			name = Debug;
+		};
+		G3000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "../7-Zip Finder Extension/7-Zip_Finder_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B65SR885N5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "../7-Zip Finder Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "7-Zip Finder Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 1999-2025 Igor Pavlov. GNU LGPL License.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.donishsoft.tajarchive.FinderExtension;
+				PRODUCT_NAME = FinderExtension;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				ENABLE_PREVIEWS = NO;
+				ENABLE_XOJIT_PREVIEWS = NO;
+			};
+			name = Release;
+		};
+		F9000021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = "../TajArchive Thumbnails/TajArchive_Thumbnails.entitlements";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B65SR885N5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "../TajArchive Thumbnails/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donishsoft.tajarchive.thumbnails";
+				PRODUCT_NAME = "TajArchive Thumbnails";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F9000022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = "../TajArchive Thumbnails/TajArchive_Thumbnails.entitlements";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B65SR885N5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "../TajArchive Thumbnails/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donishsoft.tajarchive.thumbnails";
+				PRODUCT_NAME = "TajArchive Thumbnails";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A57F60402F5CFC1B00675497 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B65SR885N5;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "7-Zip Quick Look/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "7-Zip Quick Look";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.donishsoft.tajarchive.quicklook;
+				PRODUCT_NAME = "TajArchive Quick Look";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = AppStore;
+		};
+		A5G2000002 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "7-Zip/TajArchive-AppStore.entitlements";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = APPSTORE;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B65SR885N5;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "7-Zip/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 1999-2025 Igor Pavlov. GNU LGPL License.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.donishsoft.tajarchive;
+				PRODUCT_NAME = TajArchive;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				ENABLE_PREVIEWS = NO;
+				ENABLE_XOJIT_PREVIEWS = NO;
+			};
+			name = AppStore;
+		};
+		A5G3000002 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "../7-Zip Finder Extension/7-Zip_Finder_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B65SR885N5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "../7-Zip Finder Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "7-Zip Finder Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 1999-2025 Igor Pavlov. GNU LGPL License.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.donishsoft.tajarchive.FinderExtension;
+				PRODUCT_NAME = FinderExtension;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				ENABLE_PREVIEWS = NO;
+				ENABLE_XOJIT_PREVIEWS = NO;
+			};
+			name = AppStore;
+		};
+		A5G1000002 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = AppStore;
+		};
+		A5F9000022 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = "../TajArchive Thumbnails/TajArchive_Thumbnails.entitlements";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B65SR885N5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "../TajArchive Thumbnails/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donishsoft.tajarchive.thumbnails";
+				PRODUCT_NAME = "TajArchive Thumbnails";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = AppStore;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		237F60422F5CFC1B00675497 /* Build configuration list for PBXNativeTarget "7-Zip Quick Look" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				237F603F2F5CFC1B00675497 /* Debug */,
+				237F60402F5CFC1B00675497 /* Release */,
+				A57F60402F5CFC1B00675497 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1000001 /* Build configuration list for PBXNativeTarget "7-Zip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G2000001 /* Debug */,
+				G2000002 /* Release */,
+				A5G2000002 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1000002 /* Build configuration list for PBXNativeTarget "7-Zip Finder Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G3000001 /* Debug */,
+				G3000002 /* Release */,
+				A5G3000002 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1000003 /* Build configuration list for PBXProject "7-Zip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G1000001 /* Debug */,
+				G1000002 /* Release */,
+				A5G1000002 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9000020 /* Build configuration list for PBXNativeTarget "TajArchive Thumbnails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9000021 /* Debug */,
+				F9000022 /* Release */,
+				A5F9000022 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1000000 /* Project object */;
+}

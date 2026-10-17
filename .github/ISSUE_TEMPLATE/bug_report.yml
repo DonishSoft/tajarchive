@@ -1,0 +1,36 @@
+name: Bug report / Сообщение об ошибке
+description: Something does not work as it should. / Что-то работает не так.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened? / Что произошло?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: TajArchive version / Версия TajArchive
+      placeholder: "1.0.0 (Mac App Store) / 1.0.0 (disk image)"
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version and Mac / Версия macOS и Mac
+      placeholder: "macOS 15.4, MacBook Air M2"
+    validations:
+      required: true
+  - type: textarea
+    id: archive
+    attributes:
+      label: Archive details / Об архиве
+      description: Format, size, and whether 7-Zip on another computer opens it. Attach it if it contains nothing private.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log / Журнал
+      description: Help → Show Log Files. Remove private file names first.
+      render: text

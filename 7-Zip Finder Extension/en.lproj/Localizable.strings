@@ -1,0 +1,12 @@
+/* TajArchive Finder menu — English (keys are the English text) */
+"Add to Archive…" = "Add to Archive…";
+"Add to “%@”" = "Add to “%@”";
+"Add to “%@” (Adaptive)" = "Add to “%@” (Adaptive)";
+"Open Archive" = "Open Archive";
+"Extract Files…" = "Extract Files…";
+"Extract Here" = "Extract Here";
+"Extract to “%@”" = "Extract to “%@”";
+"Test Archive" = "Test Archive";
+"TajArchive could not be opened" = "TajArchive could not be opened";
+"The selected items could not be passed to the app." = "The selected items could not be passed to the app.";
+"The app was not found next to its Finder extension. Reinstall TajArchive." = "The app was not found next to its Finder extension. Reinstall TajArchive.";

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — TajArchive</title>
+<meta name="description" content="Help for TajArchive: installation, Finder menu, Quick Look, file access and how to report a problem.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="alternate" hreflang="ru" href="ru/support.html">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="wrap top">
+  <a class="brand" href="./"><img src="assets/icon.png" alt="">TajArchive</a>
+  <nav>
+    <a href="./">Home</a>
+    <a href="support.html" aria-current="page">Support</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="https://github.com/DonishSoft/tajarchive">Source code</a>
+    <a href="ru/support.html" hreflang="ru">Русский</a>
+  </nav>
+</header>
+
+<main class="wrap">
+<article class="doc">
+  <h1>TajArchive Support</h1>
+  <p class="meta">Questions, problems and ideas are welcome.</p>
+
+  <h2>Contact</h2>
+  <p>Report a problem or suggest a feature on <a href="https://github.com/DonishSoft/tajarchive/issues">GitHub Issues</a> (you can write in English, Russian or Tajik), or email <a href="mailto:info@donishsoft.com">info@donishsoft.com</a>. Please mention your macOS version, the TajArchive version (TajArchive → About TajArchive) and, if it is about a specific archive, its format and size.</p>
+
+  <h2>Frequently asked questions</h2>
+
+  <details open>
+    <summary>How do I install TajArchive?</summary>
+    <p>From the Mac App Store, just click Get. From the disk image (.dmg): open it, drag TajArchive onto the Applications folder, then open TajArchive from Applications. The welcome window sets up the Finder menu and default app in a couple of clicks.</p>
+  </details>
+
+  <details>
+    <summary>How do I turn on the Finder menu?</summary>
+    <p>macOS keeps Finder extensions off until you switch them on. Open TajArchive → Setup Assistant and click <em>Turn On</em> or <em>Open System Settings</em>, then enable <strong>TajArchive Finder Extension</strong> (System Settings → General → Login Items &amp; Extensions → Finder). Afterwards right-click any file or folder in Finder and choose TajArchive.</p>
+  </details>
+
+  <details>
+    <summary>How do I make TajArchive open .7z, .rar and other archives?</summary>
+    <p>Click <em>Set as Default</em> in the Setup Assistant, or pick formats in TajArchive → Settings → File Associations. You can also select an archive in Finder, choose File → Get Info, pick TajArchive under “Open with” and click “Change All…”.</p>
+  </details>
+
+  <details>
+    <summary>Why does the Mac App Store version ask for access to a folder?</summary>
+    <p>Apps from the Mac App Store run in a sandbox and may only use files you give them. Allow access to your home folder once in the Setup Assistant (Access to your files → Allow Access) and TajArchive can open archives and save files next to them anywhere in it. For other places, such as external drives, it asks the first time you use them.</p>
+  </details>
+
+  <details>
+    <summary>How do I see what is inside an archive without opening it?</summary>
+    <p>Select the archive in Finder and press the Space bar. Quick Look shows the list of files; Finder thumbnails also show the archive format and, for ZIP, the number of files.</p>
+  </details>
+
+  <details>
+    <summary>An archive is protected with a password.</summary>
+    <p>TajArchive asks for the password when it is needed. With 7z archives that hide their file names, the password is needed even to list the contents. Passwords are never stored.</p>
+  </details>
+
+  <details>
+    <summary>A large archive extracts slowly or a job takes a long time.</summary>
+    <p>Long operations can be paused and resumed from the progress window. Extraction speed is limited mostly by the disk; Tools → Benchmark shows what your Mac can do.</p>
+  </details>
+
+  <details>
+    <summary>How do I uninstall TajArchive?</summary>
+    <p>Quit TajArchive and move it from Applications to the Trash. Its settings are in <code>~/Library/Containers/com.donishsoft.tajarchive</code> (Mac App Store version) or <code>~/Library/Preferences/com.donishsoft.tajarchive.plist</code> and <code>~/Library/Application Support/TajArchive</code> (downloaded version).</p>
+  </details>
+
+  <h2>System requirements</h2>
+  <p>macOS 12 Monterey or later, on Apple silicon or Intel Macs.</p>
+
+  <h2>Source code and licenses</h2>
+  <p>TajArchive is open source under the GNU LGPL: <a href="https://github.com/DonishSoft/tajarchive">github.com/DonishSoft/tajarchive</a>. It uses the unmodified 7-Zip 25.01 engine by Igor Pavlov, licensed under the GNU LGPL with the unRAR license restriction; the exact 7-Zip source is in the repository's <a href="https://github.com/DonishSoft/tajarchive/tree/main/Vendor">Vendor</a> folder.</p>
+</article>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 DonishSoft · TajArchive is free software under the GNU LGPL</span>
+    <span><a href="support.html">Support</a> · <a href="privacy.html">Privacy Policy</a> · <a href="ru/support.html">Русский</a></span>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,7 @@
+/* TajArchive Quick Look — English (keys are the English text) */
+"Files: %d   Folders: %d   Size: %@" = "Files: %d   Folders: %d   Size: %@";
+"Name" = "Name";
+"Size" = "Size";
+"Modified" = "Modified";
+"…and %d more" = "…and %d more";
+"Open the archive in TajArchive to see its contents." = "Open the archive in TajArchive to see its contents.";

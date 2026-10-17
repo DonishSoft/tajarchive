@@ -1,0 +1,7 @@
+/* TajArchive Quick Look — Тоҷикӣ */
+"Files: %d   Folders: %d   Size: %@" = "Файлҳо: %d   Ҷузвдонҳо: %d   Ҳаҷм: %@";
+"Name" = "Ном";
+"Size" = "Ҳаҷм";
+"Modified" = "Тағйир";
+"…and %d more" = "…ва боз %d";
+"Open the archive in TajArchive to see its contents." = "Архивро дар TajArchive кушоед, то мундариҷаи онро бинед.";
